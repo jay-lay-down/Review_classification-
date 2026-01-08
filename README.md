@@ -63,7 +63,7 @@ RAG가 해당 카테고리의 과거 데이터를 참조하므로 문맥을 정�
 
 ---
 
-## 5. 추천 기술 스택 (Tech Stack)
+## 5.기술 스택 (Tech Stack)
 - **LLM:** Google Gemini-1.5-Flash  
   (빠른 속도, 저렴한 비용, 긴 컨텍스트 윈도우로 다수의 Few-shot 예제 입력 가능)
 - **Embedding Model:** text-embedding-004  
@@ -72,3 +72,4 @@ RAG가 해당 카테고리의 과거 데이터를 참조하므로 문맥을 정�
   - **Prototyping:** ChromaDB (로컬, 가벼움)
   - **Production:** Pinecone or Elasticsearch (메타데이터 필터링 성능 우수)
 - **Application:** Python + Streamlit (빠른 대시보드 구현)
+- **Langchain
